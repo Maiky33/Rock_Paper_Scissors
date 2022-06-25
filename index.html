@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">   
+
+<head>  
+
+    <title>Piedra Papel  o Tijera</title>    
+    <meta chartset="utf-8" />
+    <meta name="description" content="Proyecto hawkins //Piedra papel o tijera//" />
+    <meta name="author" content="Maicol Barrera" />
+    <meta name="keywords" content="Primer Proyecto con JavaScript" />
+
+    <link rel="stylesheet" href="/css/estilos_hawkins.css"
+    
+</head>
+
+<body>  
+
+    <h1 class="titulo">Piedra Papel o Tijera</h1>
+
+    <div class="container_select"> 
+
+        <div id="selector_piedra" class="selectors">   
+            <img id="imagen_piedra1" class="imagen_juego" src="images/piedra.PNG">
+            <p>Piedra</p>
+        </div>
+
+        <div id="selector_papel" class="selectors">
+            <img class="imagen_juego" src="images/papel.PNG">
+            <p>Papel</p>
+        </div>
+
+        <div id="selector_tijera" class="selectors">
+            <img class="imagen_juego" src="images/tijera.PNG">
+            <p>Tijera</p>
+        </div>
+
+    </div>    
+
+    <div class="container_winlose" id="container_winlose">
+        <div>  
+            
+        </div>
+    </div>
+
+    <div class="container_flex_respuesta">   
+        <div id="selector_player" class="container_respuesta container_you"">
+            
+        </div>
+        
+        <div class="container_vs">
+            <h2>VS</h2>
+        </div>
+        
+        <div id="selector_cpu" class="container_respuesta">
+            <div class="animation" id="animation">   
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor_restart">   
+        <input id="button_restart" class="button_style" type="button" value="RESTART">
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

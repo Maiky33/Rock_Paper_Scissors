@@ -1,0 +1,99 @@
+body{
+    background: #bfd9f5;
+}
+
+
+.titulo{    
+    text-align: center;
+}
+
+.container_select{  
+    display: flex;
+    margin-top:70px;
+    justify-content: space-around;
+}
+.selectors{
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.imagen_juego{
+    width: 200px;
+    height: 170px;
+}
+
+.selectors:hover{
+    width: 200px;
+    border: solid #000 1px;
+    text-align: center;
+    background: #dddddd;
+    border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.container_result{  
+    width: 300px;
+    height: 100px;
+    border: solid #000 1px;
+    border-radius: 5px;
+}
+
+.container_flex_respuesta{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_winlose{    
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container_respuesta{   
+    width: 200px;
+    height: 200px;
+    border: solid #000 1px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.container_vs{  
+    margin-top: 70px;
+}
+
+.contenedor_restart{
+    display: flex;
+    justify-content: center;
+}
+
+.button_style{
+    background: rgb(157, 219, 204);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.animation{ 
+    width: 200px;
+    height: 200px;
+
+    background-repeat: no-repeat;
+    background-size: 200px;
+    animation: mianimacion;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mianimacion {
+    0% {background-image:url(../images/piedra.png);}
+    50% {background-image: url(../images/papel.png)}
+    100% {background-image: url(../images/tijera.png)}
+}
